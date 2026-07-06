@@ -1,0 +1,21 @@
+<svg id="favicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196" height="196" viewBox="0 0 196 196">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.922" y1="1.111" x2="0.229" y2="0.219" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8a2eda"/>
+      <stop offset="0.059" stop-color="#934de6"/>
+      <stop offset="0.35" stop-color="#632fc6"/>
+      <stop offset="0.67" stop-color="#3d64ce"/>
+      <stop offset="1" stop-color="#45dbff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.289" y1="1.125" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ab57f4"/>
+      <stop offset="0.453" stop-color="#5d7fdb"/>
+      <stop offset="1" stop-color="#279bfd"/>
+    </linearGradient>
+  </defs>
+  <rect id="長方形_277" data-name="長方形 277" width="196" height="196" fill="none"/>
+  <g id="グループ_351" data-name="グループ 351" transform="translate(0 10)">
+    <path id="前面オブジェクトで型抜き_2" data-name="前面オブジェクトで型抜き 2" d="M60.228,210l-4.858,0a32.532,32.532,0,0,1-8.765-1.186,31.3,31.3,0,0,1-7.683-3.31A32.374,32.374,0,0,1,23.328,178.52a31.3,31.3,0,0,1,.968-8.31,32.53,32.53,0,0,1,3.348-8.186l65.63-113.9a32.533,32.533,0,0,1,5.412-7.011A31.3,31.3,0,0,1,105.4,36.1a32.376,32.376,0,0,1,31.2,0,31.3,31.3,0,0,1,6.715,5.008,32.535,32.535,0,0,1,5.412,7.011l65.63,113.9a32.53,32.53,0,0,1,3.348,8.186,31.3,31.3,0,0,1,.968,8.31A32.374,32.374,0,0,1,203.078,205.5a31.3,31.3,0,0,1-7.683,3.31A32.532,32.532,0,0,1,186.63,210H111.067l23.892-41.382L155.719,180.6,153.1,102.954,84.544,139.511,105.3,151.5l-.015.034c-.565,1.2-3.6,7.612-7.792,15.477-4.215,7.906-10.483,18.908-16.4,26.425a62.3,62.3,0,0,1-8.218,8.682,43.559,43.559,0,0,1-6.9,4.912,22.8,22.8,0,0,1-6.524,2.68l.782.294Z" transform="translate(-23 -32.097)" fill="url(#linear-gradient)"/>
+    <circle id="楕円形_27" data-name="楕円形 27" cx="16" cy="16" r="16" transform="translate(159 7)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+  <html>
+
+  <head>
+    
+<meta charset="UTF-8" />
+<!-- 検索で引っかからないようにする -->
+<meta name="robots"
+      content="noindex,nofollow" />
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+
+<!-- pagedata.jsonで出力されたタイトルを表示  -->
+<meta name="description"
+      content="申し込みフォーム">
+<meta property="og:image"
+      content="./assets/images/image-ogp.png">
+<title>申し込みフォーム|AI Skill Up</title>
+
+<link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+
+<!-- フォント -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="../assets/js/main.js"></script>
+    <link rel="stylesheet" crossorigin href="../assets/css/style.css">
+  </head>
+
+  <body data-page="form">
+
+    <header>
+      <div class="c-header page">
+        <a href="../index.html" class="c-header__logo">
+          <img src="../assets/images/logo-renew2.svg" alt="AI Skill Up">
+        </a>
+      </div>
+    </header>
+    <!-- 中身 -->
+
+    <main>
+      <div class="form-header">
+        <h1 class="stepper-title">講座申し込みフォーム</h1>
+        <ol class="stepper">
+          <li class="step active" aria-current="step">
+            <div class="step-number">1</div>
+            <div class="step-label">入力</div>
+          </li>
+          <li class="step">
+            <div class="step-number">2</div>
+            <div class="step-label">確認</div>
+          </li>
+          <li class="step">
+            <div class="step-number">3</div>
+            <div class="step-label">完了</div>
+          </li>
+        </ol>
+        <p class="timeout-message">期間限定50%オフ！終了までのこり○○:○○:○○</p>
+      </div>
+
+      <form method="post" class="form-container">
+        <div class="form-row">
+          <div class="form-group name">
+            <p id="name" class="label-title">
+              氏名<span class="required">＊</span>
+            </p>
+
+            <div class="name-group">
+
+              <div>
+                <!--<label for="lastName" class="sr-only">姓</label>-->
+                <input type="text" id="lastName" name="lastName" autocomplete="family-name" required
+                  placeholder="例) 山田">
+              </div>
+
+              <div>
+                <!--<label for="firstName" class="sr-only">名</label>-->
+                <input type="text" id="firstName" name="firstName" autocomplete="given-name" required
+                  placeholder="例) 太郎">
+              </div>
+
+            </div>
+            <div class="error" id="lastNameError"></div>
+            <div class="error" id="firstNameError"></div>
+          </div>
+        </div>
+
+
+
+        <div class="form-group select">
+          <div id="birthDate" class="label-title">生年月日<span class="required">＊</span></div>
+
+          <div class="birth-group">
+
+            <div class="sr-only">生年</div>
+            <select id="birthYear" name="birthYear" autocomplete="bday-year" required>
+              <option value="">年</option>
+            </select>
+            <span aria-hidden="true">年</span>
+
+            <div class="sr-only">生月</div>
+            <select id="birthMonth" name="birthMonth" autocomplete="bday-month" required>
+              <option value="">月</option>
+            </select>
+            <span aria-hidden="true">月</span>
+
+            <div class="sr-only">生日</div>
+            <select id="birthDay" name="birthDay" autocomplete="bday-day" required>
+              <option value="">日</option>
+            </select>
+            <span aria-hidden="true">日</span>
+
+          </div>
+        </div>
+
+        <div class="form-group select age">
+          <div class="label-title" aria-hidden="true">年齢</div>
+          <select id="age" name="age">
+            <option value="">選択してください</option>
+            
+              <option value="10">
+                10
+              </option>
+              
+              <option value="11">
+                11
+              </option>
+              
+              <option value="12">
+                12
+              </option>
+              
+              <option value="13">
+                13
+              </option>
+              
+              <option value="14">
+                14
+              </option>
+              
+              <option value="15">
+                15
+              </option>
+              
+              <option value="16">
+                16
+              </option>
+              
+              <option value="17">
+                17
+              </option>
+              
+              <option value="18">
+                18
+              </option>
+              
+              <option value="19">
+                19
+              </option>
+              
+              <option value="20">
+                20
+              </option>
+              
+              <option value="21">
+                21
+              </option>
+              
+              <option value="22">
+                22
+              </option>
+              
+              <option value="23">
+                23
+              </option>
+              
+              <option value="24">
+                24
+              </option>
+              
+              <option value="25">
+                25
+              </option>
+              
+              <option value="26">
+                26
+              </option>
+              
+              <option value="27">
+                27
+              </option>
+              
+              <option value="28">
+                28
+              </option>
+              
+              <option value="29">
+                29
+              </option>
+              
+              <option value="30">
+                30
+              </option>
+              
+              <option value="31">
+                31
+              </option>
+              
+              <option value="32">
+                32
+              </option>
+              
+              <option value="33">
+                33
+              </option>
+              
+              <option value="34">
+                34
+              </option>
+              
+              <option value="35">
+                35
+              </option>
+              
+              <option value="36">
+                36
+              </option>
+              
+              <option value="37">
+                37
+              </option>
+              
+              <option value="38">
+                38
+              </option>
+              
+              <option value="39">
+                39
+              </option>
+              
+              <option value="40">
+                40
+              </option>
+              
+              <option value="41">
+                41
+              </option>
+              
+              <option value="42">
+                42
+              </option>
+              
+              <option value="43">
+                43
+              </option>
+              
+              <option value="44">
+                44
+              </option>
+              
+              <option value="45">
+                45
+              </option>
+              
+              <option value="46">
+                46
+              </option>
+              
+              <option value="47">
+                47
+              </option>
+              
+              <option value="48">
+                48
+              </option>
+              
+              <option value="49">
+                49
+              </option>
+              
+              <option value="50">
+                50
+              </option>
+              
+              <option value="51">
+                51
+              </option>
+              
+              <option value="52">
+                52
+              </option>
+              
+              <option value="53">
+                53
+              </option>
+              
+              <option value="54">
+                54
+              </option>
+              
+              <option value="55">
+                55
+              </option>
+              
+              <option value="56">
+                56
+              </option>
+              
+              <option value="57">
+                57
+              </option>
+              
+              <option value="58">
+                58
+              </option>
+              
+              <option value="59">
+                59
+              </option>
+              
+              <option value="60">
+                60
+              </option>
+              
+              <option value="61">
+                61
+              </option>
+              
+              <option value="62">
+                62
+              </option>
+              
+              <option value="63">
+                63
+              </option>
+              
+              <option value="64">
+                64
+              </option>
+              
+              <option value="65">
+                65
+              </option>
+              
+              <option value="66">
+                66
+              </option>
+              
+              <option value="67">
+                67
+              </option>
+              
+              <option value="68">
+                68
+              </option>
+              
+              <option value="69">
+                69
+              </option>
+              
+              <option value="70">
+                70
+              </option>
+              
+              <option value="71">
+                71
+              </option>
+              
+              <option value="72">
+                72
+              </option>
+              
+              <option value="73">
+                73
+              </option>
+              
+              <option value="74">
+                74
+              </option>
+              
+              <option value="75">
+                75
+              </option>
+              
+              <option value="76">
+                76
+              </option>
+              
+              <option value="77">
+                77
+              </option>
+              
+              <option value="78">
+                78
+              </option>
+              
+              <option value="79">
+                79
+              </option>
+              
+              <option value="80">
+                80
+              </option>
+              
+          </select>
+        </div>
+
+
+        <div class="form-group select occupation">
+          <div class="label-title" aria-hidden="true">職業</div>
+          <select id="occupation" name="occupation">
+            <option value="">選択してください</option>
+            <option value="会社員">会社員</option>
+            <option value="公務員">公務員</option>
+            <option value="会社役員">会社役員</option>
+            <option value="自営業">自営業</option>
+            <option value="アルバイト・パート">アルバイト・パート</option>
+            <option value="主婦（主夫）">主婦（主夫）</option>
+            <option value="学生">学生</option>
+            <option value="その他">その他</option>
+          </select>
+        </div>
+
+
+        <div class="form-group tel">
+          <div class="label-title" aria-hidden="true">電話番号</div>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+        </div>
+
+        <div class="form-group">
+          <div class="label-title" aria-hidden="true">自己紹介</div>
+          <textarea id="introduction" name="introduction" placeholder="自己紹介やAIに対する想いを300文字以内で入力してください。"></textarea>
+          <div class="error" id="introductionError"></div>
+        </div>
+
+        <div class="form-group">
+          <div class="label-title" aria-hidden="true">趣味</div>
+          <input type="text" id="hobby" name="hobby">
+        </div>
+
+        <div class="form-group">
+          <div class="label-title" aria-hidden="true">メールアドレス<span class="required">＊</span></div>
+          <input type="email" id="email" name="email" autocomplete="email" required="required">
+          <div class="error" id="emailError"></div>
+        </div>
+
+
+        <div class="form-group select-course select">
+          <div class="label-title" aria-hidden="true">
+            希望コース<span class="required">＊</span>
+          </div>
+          <select id="course" name="course" required>
+            <option value="">選択してください</option>
+            <option value="基礎コース">基礎コース</option>
+            <option value="エンジニアコース">エンジニアコース</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <div class="label-title">サービスを知ったきっかけ</div>
+          <div class="checkbox-group">
+            <div class="checkbox-item-wrap">
+              <div class="checkbox-item">
+                <input type="checkbox" name="source" value="チラシ" onclick="validateAndSubmit()">
+                チラシ
+              </div>
+            </div>
+            <div class="checkbox-item-wrap">
+              <div class="checkbox-item">
+                <input type="checkbox" name="source" value="Webサイト" onclick="validateAndSubmit()">
+                Webサイト
+              </div>
+            </div>
+            <div class="checkbox-item-wrap">
+              <div class="checkbox-item">
+                <input type="checkbox" name="source" value="口コミ" onclick="validateAndSubmit()">
+                口コミ
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="label-title">その他質問</div>
+          <textarea id="questions" name="questions"></textarea>
+        </div>
+
+      </form>
+
+      <div class="form-instruction">
+        <p>サービスを利用するには利用規約への同意が必要です。<br><a href="https://designare.jp/service/usability">利用規約</a>をご確認ください。</p>
+        <div class="checkbox-group">
+          <div class="entry_user_policy_check_wrap">
+            <input type="checkbox" id="entry_user_policy_check" name="entry[user_policy_check]" required="required"
+              title="" value="1">
+            利用規約に同意する
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="box_bottom">
+        <button type="submit" class="btn btn-primary" onclick="validateAndSubmit()">OK</button>
+      </div>
+
+    </main>
+
+    
+  <footer class="footer">
+    <div class="caution" role="note">
+      <p>このサイトは体験用のダミーサイトです。<br class="sp_visible">改善版は
+        <a href="https://aomori-mikan.github.io/ai-skillup/" target="_blank" rel="noopener noreferrer" class="external">
+          こちら
+        </a>をご確認ください。
+      </p>
+
+    </div>
+
+  </footer>
+
+
+
+  </body>
+
+  </html>
